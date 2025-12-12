@@ -1,0 +1,148 @@
+/* Belasco Daily — Единый стиль для всего сайта */
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ЛОГОТИП */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+/* ЗАГОЛОВКИ */
+h1 {
+  color: #ff3355;
+  font-size: 2.2rem;
+  margin: 0 0 0.5rem;
+  text-shadow: 0 0 5px rgba(255, 51, 85, 0.7);
+}
+
+/* МЕТА-ИНФОРМАЦИЯ (дата, рубрика) */
+.meta {
+  color: #aaa;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+/* ССЫЛКИ */
+a {
+  color: #ff6666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* НОВОСТЬ В ЛЕНТЕ */
+.news-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-title {
+  font-size: 22px;
+  color: #ff6666;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.news-date {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news-preview img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 10px 0;
+  border: 1px solid #333;
+}
+
+.news-excerpt {
+  margin-top: 10px;
+}
+
+/* ФОТО И ВИДЕО В НОВОСТИ */
+.photo-container,
+.video-container {
+  margin: 1.5rem 0;
+  border: 1px solid #333;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.photo-container img,
+.video-container video {
+  width: 100%;
+  display: block;
+}
+
+.video-container video {
+  background: #000;
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: #ccc;
+  text-align: center;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* СПИСКИ */
+ul {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* ПОДВАЛ */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+/* ДОПОЛНИТЕЛЬНЫЙ ТЕКСТ В НОВОСТИ */
+.footer-note {
+  font-style: italic;
+  color: #ff6666;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+}
